@@ -9,25 +9,69 @@
 /* Begin PBXBuildFile section */
 		244C13F4292F83700092AD2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C13F3292F83700092AD2B /* AppDelegate.swift */; };
 		244C13F6292F83700092AD2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C13F5292F83700092AD2B /* SceneDelegate.swift */; };
-		244C13F8292F83700092AD2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C13F7292F83700092AD2B /* ViewController.swift */; };
-		244C13FB292F83700092AD2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244C13F9292F83700092AD2B /* Main.storyboard */; };
+		244C13F8292F83700092AD2B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C13F7292F83700092AD2B /* HomeController.swift */; };
 		244C13FD292F83700092AD2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244C13FC292F83700092AD2B /* Assets.xcassets */; };
 		244C1400292F83700092AD2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244C13FE292F83700092AD2B /* LaunchScreen.storyboard */; };
+		244C140B292F85D50092AD2B /* Leagues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C140A292F85D50092AD2B /* Leagues.swift */; };
+		244C140E292F86AB0092AD2B /* LeagueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C140D292F86AB0092AD2B /* LeagueManager.swift */; };
+		244C1413292F8A400092AD2B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C1412292F8A400092AD2B /* HomeViewModel.swift */; };
+		244C1416292F90DF0092AD2B /* LeagueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C1415292F90DF0092AD2B /* LeagueCell.swift */; };
+		244C1419292F91DB0092AD2B /* CollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C1418292F91DB0092AD2B /* CollectionView+Ext.swift */; };
+		244C141C292F99620092AD2B /* TeamsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C141B292F99620092AD2B /* TeamsController.swift */; };
+		244C141E292F996D0092AD2B /* TeamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C141D292F996D0092AD2B /* TeamsViewModel.swift */; };
+		244C1420292F997E0092AD2B /* TeamsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C141F292F997E0092AD2B /* TeamsManager.swift */; };
+		244C1422292F99CF0092AD2B /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C1421292F99CF0092AD2B /* Teams.swift */; };
+		244C1425292FA1300092AD2B /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C1424292FA1300092AD2B /* TeamCell.swift */; };
+		244C1428292FA2460092AD2B /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 244C1427292FA2460092AD2B /* Kingfisher */; };
+		244C142D292FA98B0092AD2B /* TeamDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C142C292FA98B0092AD2B /* TeamDetailViewModel.swift */; };
+		244C142F292FA9A00092AD2B /* TeamDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C142E292FA9A00092AD2B /* TeamDetailsController.swift */; };
+		244C143A292FB2A90092AD2B /* TeamsListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C1439292FB2A90092AD2B /* TeamsListTest.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		244C143B292FB2A90092AD2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244C13E8292F83700092AD2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244C13EF292F83700092AD2B;
+			remoteInfo = FDJTest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		244C13F0292F83700092AD2B /* FDJTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDJTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		244C13F3292F83700092AD2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		244C13F5292F83700092AD2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		244C13F7292F83700092AD2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		244C13FA292F83700092AD2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		244C13F7292F83700092AD2B /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		244C13FC292F83700092AD2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		244C13FF292F83700092AD2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		244C1401292F83700092AD2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244C140A292F85D50092AD2B /* Leagues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leagues.swift; sourceTree = "<group>"; };
+		244C140D292F86AB0092AD2B /* LeagueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueManager.swift; sourceTree = "<group>"; };
+		244C1412292F8A400092AD2B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		244C1415292F90DF0092AD2B /* LeagueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueCell.swift; sourceTree = "<group>"; };
+		244C1418292F91DB0092AD2B /* CollectionView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionView+Ext.swift"; sourceTree = "<group>"; };
+		244C141B292F99620092AD2B /* TeamsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsController.swift; sourceTree = "<group>"; };
+		244C141D292F996D0092AD2B /* TeamsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewModel.swift; sourceTree = "<group>"; };
+		244C141F292F997E0092AD2B /* TeamsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsManager.swift; sourceTree = "<group>"; };
+		244C1421292F99CF0092AD2B /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		244C1424292FA1300092AD2B /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		244C142C292FA98B0092AD2B /* TeamDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailViewModel.swift; sourceTree = "<group>"; };
+		244C142E292FA9A00092AD2B /* TeamDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsController.swift; sourceTree = "<group>"; };
+		244C1437292FB2A90092AD2B /* FDJTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDJTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244C1439292FB2A90092AD2B /* TeamsListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		244C13ED292F83700092AD2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244C1428292FA2460092AD2B /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244C1434292FB2A90092AD2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				244C13F2292F83700092AD2B /* FDJTest */,
+				244C1438292FB2A90092AD2B /* FDJTestTests */,
 				244C13F1292F83700092AD2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				244C13F0292F83700092AD2B /* FDJTest.app */,
+				244C1437292FB2A90092AD2B /* FDJTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +104,96 @@
 			children = (
 				244C13F3292F83700092AD2B /* AppDelegate.swift */,
 				244C13F5292F83700092AD2B /* SceneDelegate.swift */,
-				244C13F7292F83700092AD2B /* ViewController.swift */,
-				244C13F9292F83700092AD2B /* Main.storyboard */,
 				244C13FC292F83700092AD2B /* Assets.xcassets */,
 				244C13FE292F83700092AD2B /* LaunchScreen.storyboard */,
 				244C1401292F83700092AD2B /* Info.plist */,
+				244C1407292F85490092AD2B /* Home */,
+				244C141A292F992E0092AD2B /* Teams */,
+				244C1429292FA80A0092AD2B /* TeamDetail */,
+				244C1417292F91CD0092AD2B /* Helper */,
+				244C140C292F86720092AD2B /* Network */,
+				244C1408292F85BC0092AD2B /* Models */,
 			);
 			path = FDJTest;
+			sourceTree = "<group>";
+		};
+		244C1407292F85490092AD2B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				244C1414292F90CE0092AD2B /* Leagues */,
+				244C13F7292F83700092AD2B /* HomeController.swift */,
+				244C1412292F8A400092AD2B /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		244C1408292F85BC0092AD2B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				244C140A292F85D50092AD2B /* Leagues.swift */,
+				244C1421292F99CF0092AD2B /* Teams.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		244C140C292F86720092AD2B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				244C140D292F86AB0092AD2B /* LeagueManager.swift */,
+				244C141F292F997E0092AD2B /* TeamsManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		244C1414292F90CE0092AD2B /* Leagues */ = {
+			isa = PBXGroup;
+			children = (
+				244C1415292F90DF0092AD2B /* LeagueCell.swift */,
+			);
+			path = Leagues;
+			sourceTree = "<group>";
+		};
+		244C1417292F91CD0092AD2B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				244C1418292F91DB0092AD2B /* CollectionView+Ext.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		244C141A292F992E0092AD2B /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				244C1423292FA11F0092AD2B /* Team */,
+				244C141B292F99620092AD2B /* TeamsController.swift */,
+				244C141D292F996D0092AD2B /* TeamsViewModel.swift */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		244C1423292FA11F0092AD2B /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				244C1424292FA1300092AD2B /* TeamCell.swift */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		244C1429292FA80A0092AD2B /* TeamDetail */ = {
+			isa = PBXGroup;
+			children = (
+				244C142C292FA98B0092AD2B /* TeamDetailViewModel.swift */,
+				244C142E292FA9A00092AD2B /* TeamDetailsController.swift */,
+			);
+			path = TeamDetail;
+			sourceTree = "<group>";
+		};
+		244C1438292FB2A90092AD2B /* FDJTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				244C1439292FB2A90092AD2B /* TeamsListTest.swift */,
+			);
+			path = FDJTestTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +212,30 @@
 			dependencies = (
 			);
 			name = FDJTest;
+			packageProductDependencies = (
+				244C1427292FA2460092AD2B /* Kingfisher */,
+			);
 			productName = FDJTest;
 			productReference = 244C13F0292F83700092AD2B /* FDJTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		244C1436292FB2A90092AD2B /* FDJTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244C143D292FB2A90092AD2B /* Build configuration list for PBXNativeTarget "FDJTestTests" */;
+			buildPhases = (
+				244C1433292FB2A90092AD2B /* Sources */,
+				244C1434292FB2A90092AD2B /* Frameworks */,
+				244C1435292FB2A90092AD2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244C143C292FB2A90092AD2B /* PBXTargetDependency */,
+			);
+			name = FDJTestTests;
+			productName = FDJTestTests;
+			productReference = 244C1437292FB2A90092AD2B /* FDJTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +250,10 @@
 					244C13EF292F83700092AD2B = {
 						CreatedOnToolsVersion = 14.1;
 					};
+					244C1436292FB2A90092AD2B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 244C13EF292F83700092AD2B;
+					};
 				};
 			};
 			buildConfigurationList = 244C13EB292F83700092AD2B /* Build configuration list for PBXProject "FDJTest" */;
@@ -111,11 +265,15 @@
 				Base,
 			);
 			mainGroup = 244C13E7292F83700092AD2B;
+			packageReferences = (
+				244C1426292FA2460092AD2B /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 244C13F1292F83700092AD2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				244C13EF292F83700092AD2B /* FDJTest */,
+				244C1436292FB2A90092AD2B /* FDJTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +285,13 @@
 			files = (
 				244C1400292F83700092AD2B /* LaunchScreen.storyboard in Resources */,
 				244C13FD292F83700092AD2B /* Assets.xcassets in Resources */,
-				244C13FB292F83700092AD2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244C1435292FB2A90092AD2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +302,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				244C13F8292F83700092AD2B /* ViewController.swift in Sources */,
+				244C1422292F99CF0092AD2B /* Teams.swift in Sources */,
+				244C140E292F86AB0092AD2B /* LeagueManager.swift in Sources */,
+				244C1413292F8A400092AD2B /* HomeViewModel.swift in Sources */,
+				244C13F8292F83700092AD2B /* HomeController.swift in Sources */,
+				244C142D292FA98B0092AD2B /* TeamDetailViewModel.swift in Sources */,
+				244C141E292F996D0092AD2B /* TeamsViewModel.swift in Sources */,
 				244C13F4292F83700092AD2B /* AppDelegate.swift in Sources */,
+				244C142F292FA9A00092AD2B /* TeamDetailsController.swift in Sources */,
+				244C1425292FA1300092AD2B /* TeamCell.swift in Sources */,
+				244C140B292F85D50092AD2B /* Leagues.swift in Sources */,
+				244C141C292F99620092AD2B /* TeamsController.swift in Sources */,
+				244C1416292F90DF0092AD2B /* LeagueCell.swift in Sources */,
+				244C1419292F91DB0092AD2B /* CollectionView+Ext.swift in Sources */,
 				244C13F6292F83700092AD2B /* SceneDelegate.swift in Sources */,
+				244C1420292F997E0092AD2B /* TeamsManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244C1433292FB2A90092AD2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244C143A292FB2A90092AD2B /* TeamsListTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		244C13F9292F83700092AD2B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				244C13FA292F83700092AD2B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		244C143C292FB2A90092AD2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244C13EF292F83700092AD2B /* FDJTest */;
+			targetProxy = 244C143B292FB2A90092AD2B /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		244C13FE292F83700092AD2B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +476,6 @@
 				INFOPLIST_FILE = FDJTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +503,6 @@
 				INFOPLIST_FILE = FDJTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,6 +515,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		244C143E292FB2A90092AD2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BMU7N4Q569;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bilelbouricha.FDJTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDJTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FDJTest";
+			};
+			name = Debug;
+		};
+		244C143F292FB2A90092AD2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BMU7N4Q569;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bilelbouricha.FDJTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDJTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FDJTest";
 			};
 			name = Release;
 		};
@@ -357,7 +575,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		244C143D292FB2A90092AD2B /* Build configuration list for PBXNativeTarget "FDJTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244C143E292FB2A90092AD2B /* Debug */,
+				244C143F292FB2A90092AD2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		244C1426292FA2460092AD2B /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		244C1427292FA2460092AD2B /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 244C1426292FA2460092AD2B /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 244C13E8292F83700092AD2B /* Project object */;
 }
