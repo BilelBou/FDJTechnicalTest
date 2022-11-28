@@ -7,7 +7,11 @@
 
 import Foundation
 
-final class LeagueManager {
+protocol LeagueManagerProtocol {
+    func fetchLeagues(completion: @escaping (Result<Leagues, Error>) -> Void)
+}
+
+final class LeagueManager: LeagueManagerProtocol {
     let url = URL(string: "https://www.thesportsdb.com/api/v1/json/50130162/all_leagues.php")
     
     func fetchLeagues(completion: @escaping (Result<Leagues, Error>) -> Void) {
@@ -25,5 +29,11 @@ final class LeagueManager {
                 }
             }
         }.resume()
+    }
+}
+
+final class LeagueManagerMock: LeagueManagerProtocol {
+    func fetchLeagues(completion: @escaping (Result<Leagues, Error>) -> Void) {
+        completion(.success(Leagues(leagues: [League(id: "123", name: "Ligue 1", sport: "Soccer")])))
     }
 }

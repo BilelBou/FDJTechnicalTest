@@ -26,6 +26,7 @@
 		244C142D292FA98B0092AD2B /* TeamDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C142C292FA98B0092AD2B /* TeamDetailViewModel.swift */; };
 		244C142F292FA9A00092AD2B /* TeamDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C142E292FA9A00092AD2B /* TeamDetailsController.swift */; };
 		244C143A292FB2A90092AD2B /* TeamsListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C1439292FB2A90092AD2B /* TeamsListTest.swift */; };
+		248CC98C2934B65D0090B70D /* LeagueManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248CC98B2934B65D0090B70D /* LeagueManagerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		244C142E292FA9A00092AD2B /* TeamDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsController.swift; sourceTree = "<group>"; };
 		244C1437292FB2A90092AD2B /* FDJTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDJTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		244C1439292FB2A90092AD2B /* TeamsListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListTest.swift; sourceTree = "<group>"; };
+		248CC98B2934B65D0090B70D /* LeagueManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueManagerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				244C1439292FB2A90092AD2B /* TeamsListTest.swift */,
+				248CC98B2934B65D0090B70D /* LeagueManagerTests.swift */,
 			);
 			path = FDJTestTests;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248CC98C2934B65D0090B70D /* LeagueManagerTests.swift in Sources */,
 				244C143A292FB2A90092AD2B /* TeamsListTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

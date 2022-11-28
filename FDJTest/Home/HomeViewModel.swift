@@ -8,9 +8,13 @@
 import Foundation
 
 final class HomeViewModel {
-    let leagueManager = LeagueManager()
+    let leagueManager: LeagueManagerProtocol
     var allLeagues: [League] = []
     @Published var leagues: [League] = []
+    
+    init(leagueManager: LeagueManagerProtocol) {
+        self.leagueManager = leagueManager
+    }
     
     func getLeagues() {
         leagueManager.fetchLeagues { [weak self] result in

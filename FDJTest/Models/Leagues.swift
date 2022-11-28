@@ -9,6 +9,10 @@ import Foundation
 
 struct Leagues: Decodable, Hashable {
     var leagues: [League]
+    
+    init(leagues: [League]) {
+        self.leagues = leagues
+    }
 }
 
 struct League: Decodable, Hashable {
@@ -22,5 +26,12 @@ struct League: Decodable, Hashable {
         case name = "strLeague"
         case sport = "strSport"
         case alternateName = "strLeagueAlternate"
+    }
+    
+    init(id: String, name: String, sport: String, alternateName: String? = nil) {
+        self.id = id
+        self.name = name
+        self.sport = sport
+        self.alternateName = alternateName
     }
 }
